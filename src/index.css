@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+body {
+  margin: 0;
+  font-family: 'Public Sans',-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Main-Heading{
+  font-family: 'Dancing Script', cursive;
+  color: #6C63FF;
+}
+.Main-Name-Heading{
+  font-family: 'Dancing Script', cursive;
+  color: black;
+}
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+  .image-margin-top{
+    margin-top: 120px;
+  }
+  .Main-Heading {
+    font-size: 6vw;
+  }
+  .Main-Name-Heading {
+    font-size: 3vw;
+  }
+  .purple-button{
+    font-size: 25px;
+    border: 2.5px solid #6C63FF;
+  }
+  .margins{
+    margin-top: 160px;
+  }
+  .margins-login{
+    margin-top: 160px;
+  }
+  .Sub-Heading{
+    font-size: 20px ;
+  }
+  .Sub-Heading-login{
+    font-size: 20px ;
+  }
+  .sign-in-heading{
+    font-size: 3vw;
+    padding-top: 20px;
+  }
+  .intern-login-pic{
+    height: 70%;
+    width: 70%;
+  }
+  .input-color {
+    font-size: 1.5vw;
+    width: 80%;
+  }
+
+  .sign-up-input-color{
+    font-size: 1.5vw;
+    width: 65%;
+  }
+
+  .purple-button-width{
+    width: 50%;
+  }
+
+  .sign-up-form-box{
+    margin-top: 40px;
+
+
+  }
+  .show-data{
+    padding-left: 20px;
+  }
+  .show-details{
+
+    padding-left: 90px;
+    font-size: 20px ;
+
+
+  }
+  
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+
+  .purple-button{
+    font-size: 15px;
+    border: 1.5px solid #6C63FF;
+  }
+  .margins{
+    margin-top: 90px;
+  }
+
+  .Sub-Heading{
+    font-size: 4vw ;
+  }
+  .Sub-Heading-login{
+    font-size: 3vw ;
+  }
+  .margin-top-small{
+    margin-top: 30px;
+  }
+  .sign-in-heading{
+    font-size: 7vw;
+    margin-top: 0px;
+  }
+  .intern-login-pic{
+    height: 40%;
+    width: 40%;
+    margin-bottom: 30px;
+  }
+  .input-color{
+    width:55%;
+    font-size: 3vw;
+    border-bottom: 0.5px solid #6C63FF;
+
+  }
+  .sign-up-input-color{
+    width:65%;
+    font-size: 3vw;
+    border-bottom: 0.5px solid #6C63FF;
+  }
+
+  
+  .sign-up-form-box{
+  margin-top: 40px;
+  }
+  .file-width{
+    width:60%;
+  }
+
+  .purple-button-width{
+    width: 30%;
+    font-size: 2vw;
+
+  }
+
+
+}
+
+.Sub-Heading{
+  font-family: 'Noto Sans JP', sans-serif;
+  color:  #817e7e;
+}
+.Sub-Heading-login{
+  font-family: 'Noto Sans JP', sans-serif;
+  color:  #817e7e;
+}
+
+.purple-button{
+  color: #6C63FF;
+  font-family: 'Noto Sans JP', sans-serif;
+  padding: 5px 5px 8px 5px;
+  border-radius: 25px;
+  color: #6C63FF;
+  text-decoration: none;
+}
+
+.purple-button:hover{
+  font-family: 'Noto Sans JP', sans-serif;
+  background-color: #6C63FF;
+  color: white;
+  text-decoration: none;
+}
+
+.login-pic-two{
+  height: 73%;
+  width: 73%;
+}
+
+.login-pic-one{
+  height: 80%;
+  width: 80%;
+}
+ 
+.input-color {
+  border: none;
+  font-style: italic;
+  font-weight: lighter;
+  border-bottom:1.5px solid #6C63FF;
+
+}
+
+.form-box{
+  border: 0.5px solid #6C63FF;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+
+}
+.show-details{
+  color: black;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 30px;
+
+}
+.show-data{
+  text-align: left;
+  font-style: italic;
+  padding-right: 30px;
+}
+
+.sign-up-link{
+  font-weight: bold;
+  color: #6C63FF;
+  text-decoration: none;
+  
+}
+.sign-up-link:hover{
+  font-weight: bolder;
+}
+.sign-in-heading{
+  font-family: 'Dancing Script', cursive;
+  color: #6C63FF;
+  text-align: center;
+  justify-content: center;
+}
+.form-center-allignment{
+  text-align: center;
+}
+
+
+.margin-top{
+  margin-top: 100px;
+}
+
+.sign-up-input-color{
+  border: none;
+  font-style: italic;
+  font-weight: lighter;
+  border-bottom:1.5px solid #6C63FF;
+
+}
+
+.file-content{
+  content: "Upload your resume";
+}
+
+.file-label-styling{
+  font-family: 'Noto Sans JP', sans-serif;
+  text-decoration: none;
+  font-style: italic;
+  font-weight: lighter;
+  padding-left: 60px;
+}
+.input-color-file {
+  border: none;
+  font-style: italic;
+  font-weight: lighter;
+  padding-left: 15px;
+
+}
+
+
+/* Navbar CSS */
+.navbarcolor{
+  background-color:  #6C63FF !important;
+  color: white !important;
+
+}
+.navbar-brand{
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  font-size: 45px !important;
+  padding-left: 10px;
+
+}
+.navbar-links{
+  display: flex;
+  font-family: 'Noto Sans JP', sans-serif !important;
+  align-items: center;
+  color: white !important;
+  padding: 12px 15px;
+  margin-bottom: 8px;
+  transition: 0.3s;
+  font-weight: bold;
+  padding: 15px !important;
+  background-color: #6C63FF !important;
+  border: none !important;
+
+}
+
+
+.navbar-links:hover, .navbar-nav .active > a, .navbar-links:hover > a {
+  text-decoration: none;
+  color: #a8a9b4 !important;
+  font-weight: bolder !important;
+  font-family: 'Noto Sans JP', sans-serif !important;
+
+}
+
+.navbar-links:hover i, .navbar-nav .active > a i, .navbar-links:hover > a i {
+  color: #a8a9b4 !important;
+  font-family: 'Noto Sans JP', sans-serif !important;
+
+}
+
+.employer-left-posts{
+  float: left;
+  width:76%;
+  overflow-x: hidden;
+}
+.employer-right-posts{
+  float: right;
+  width:24%;
+  background-color:#e7e6ff ;
+  overflow-x: hidden;
+}
+
+.internship-create-form{
+  margin-top: 20px;
+  background-color:#e7e6ff ;
+  padding-top: 20px;
+  padding-bottom: 40px;
+
+}
